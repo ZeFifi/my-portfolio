@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: black;
 }
 
 .hero {
@@ -36,4 +38,85 @@ body {
   border-radius: 50%;
   width: 100%;
   max-width: 150px;
+}
+
+.my_skills h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #2a3a3f;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.my_skills p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.skills h3 {
+  color: #2a3a3f;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills_icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  color: #2a3a3f
+}
+
+.skills_description {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills_description p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.work {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.my_work {
+  background-color: #2574A9;
+  padding-bottom: 35px;
+}
+
+.my_work h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 35px;
+  margin-bottom: 20px;
+}
+
+.my_work p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.testimonials h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #2a3a3f;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.testimonials p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
